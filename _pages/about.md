@@ -46,7 +46,7 @@ From identity verification systems that have processed over 50,000 successful ve
 
 - Deployed quantized and optimized models for real-time inference on mobile/web using **TFLite**, **ONNX**, and **Core ML**.
 - Applied **unsupervised learning** to detect document quality (blur, lighting, occlusion), enhancing UX and model reliability.
-- Trained custom **object detection models** (YOLO, MMDetection) for intelligent automation of ID parsing and fraud signal detection.
+- Trained custom **object detection models** (YOLO, MMDetection, TensorFlow 2 Object Detection) for intelligent automation of ID parsing and fraud signal detection.
 
 ---
 
