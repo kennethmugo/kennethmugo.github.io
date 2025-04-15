@@ -18,6 +18,7 @@ The Yatsa Asset Tracking project is a cutting-edge IoT solution designed to deli
 - **Real-Time Asset Tracking:**
 
   Developed a real-time asset tracking system that reconstructs trips on the fly. Key techniques include:
+  - **Real-time updates:** Leveraged WebSockets to push live telemetry and alerts to the mobile apps and dashboard.
   - **Reverse Geocoding & Route Snapping:** Utilized Google APIs to convert raw GPS coordinates into human-readable locations and align routes with actual roadways.
   - **Automated Alerts:** Integrated notifications for curfew violations, speeding, and geofence breaches, ensuring stakeholders receive timely, context-aware alerts via push notifications.
 
