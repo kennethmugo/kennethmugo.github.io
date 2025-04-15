@@ -47,6 +47,8 @@ From identity verification systems that have processed over 50,000 successful ve
 - Deployed quantized and optimized models for real-time inference on mobile/web using **TFLite**, **ONNX**, and **Core ML**.
 - Applied **unsupervised learning** to detect document quality (blur, lighting, occlusion), enhancing UX and model reliability.
 - Trained custom **object detection models** (YOLO, MMDetection, TensorFlow 2 Object Detection) for intelligent automation of ID parsing and fraud signal detection.
+- **Customer Segmentation**: Used **K-Means clustering** and behavioral feature engineering to segment borrowers based on repayment patterns, transaction behavior, and loan lifecycle interactions — driving personalized product offerings and improving user retention.
+- **Credit Scoring & Risk Assessment**: Developed robust credit risk models using **XGBoost**, trained on a combination of traditional and alternative financial data. These models were integrated into the loan origination system, improving risk prediction accuracy and reducing defaults.
 
 ---
 
