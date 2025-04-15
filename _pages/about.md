@@ -22,6 +22,7 @@ From identity verification systems that have processed over 50,000 successful ve
 - Designed and deployed a multi-stage facial verification pipeline using **computer vision**, **face embeddings**, and **vector databases** to prevent duplicate registrations and identity fraud.
 - Leveraged **OCR-free** AI models to classify and extract key details from documents across dozens of ID types.
 - Achieved deployment across **web**, **Android**, and **iOS**, including budget devices and edge settings with minimal connectivity.
+- Automated Kenyan tax ID verification by simulating KRA portal interactions and solving algorithmic puzzles with OCR to cross-check taxpayer records against identity documents.
 
 ### 💳 Loan Origination & Credit Scoring
 
@@ -32,7 +33,7 @@ From identity verification systems that have processed over 50,000 successful ve
 ### 🧾 High-Throughput Payments & Messaging Gateway
 
 - Engineered a robust payments gateway handling thousands of transactions per second, ensuring **real-time settlements** with strong guarantees around **consistency, availability, and fault tolerance**.
-- Integrated with multiple external payment processors and internal systems via **message queues (RabbitMQ, Azure Service Bus)** and **distributed transaction coordination**.
+- Integrated with multiple external payment processors and internal systems via **message queues (Azure Service Bus)** and **distributed transaction coordination**.
 - Designed to be horizontally scalable with advanced monitoring, idempotency handling, and support for delayed retries and dead-letter queues.
 
 ### 🚚 IoT-Powered Asset & Container Tracking
