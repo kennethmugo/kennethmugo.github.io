@@ -19,6 +19,9 @@ This project was focused on developing a robust IoT solution for real-time track
   - Designed and implemented a digital twin system using [**Microsoft Orleans Virtual Actors**](https://learn.microsoft.com/en-us/dotnet/orleans/overview).
   - Each container was modeled as an independent virtual actor, enabling scalable, real-time data processing while optimizing cloud compute costs.
 
+- **Backend API:**
+  - Developed a GraphQL endpoint to serve real-time data from the IoT pipeline and digital twin system.
+
 - **Cloud Data Processing & Dashboarding:**
 
   - Optimized cloud data ingestion to feed a centralized dashboard, providing real-time logistics insights.
