@@ -1,49 +1,93 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hello, I'm Kenneth!"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## 🚀 Summary
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Over the past 9+ years, I’ve engineered and led the development of robust financial systems at scale—modernizing legacy platforms, spearheading digital lending innovations, and shipping AI-powered products. I bring a rare mix of technical expertise, business acumen, and product thinking that enables me to deliver real-world impact quickly and reliably.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+From identity verification systems that have processed over 50,000 successful verifications, to credit risk models deployed in production, to cloud-based wallet APIs used by thousands—I’ve consistently built systems that **scale, secure trust, and deliver value.**
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+---
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## 💼 What I've Built
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### 🔐 Identity Verification & Fraud Detection
 
-**Markdown generator**
+- Designed and deployed a multi-stage facial verification pipeline using **computer vision**, **face embeddings**, and **vector databases** to prevent duplicate registrations and identity fraud.
+- Leveraged **OCR-free** AI models to classify and extract key details from documents across dozens of ID types.
+- Achieved deployment across **web**, **Android**, and **iOS**, including budget devices and edge settings with minimal connectivity.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### 💳 Loan Origination & Credit Scoring
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- Migrated legacy loan issuance platforms to **cloud-native** microservices with **event-driven workflows**.
+- Integrated **ML models for credit risk assessment and customer segmentation**, driving smarter lending decisions and reduced default rates.
+- Built APIs for loan disbursement, repayments, and customer lifecycle management, integrating seamlessly with core banking systems.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+### 🧾 High-Throughput Payments & Messaging Gateway
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- Engineered a robust payments gateway handling thousands of transactions per second, ensuring **real-time settlements** with strong guarantees around **consistency, availability, and fault tolerance**.
+- Integrated with multiple external payment processors and internal systems via **message queues (RabbitMQ, Azure Service Bus)** and **distributed transaction coordination**.
+- Designed to be horizontally scalable with advanced monitoring, idempotency handling, and support for delayed retries and dead-letter queues.
+
+### 🚚 IoT-Powered Asset & Container Tracking
+
+- Developed a multi-tenant IoT platform that ingested real-time GPS and sensor telemetry from third-party tracking devices installed on shipping containers and high-value assets.
+- Built custom gateways to **interpret multiple device protocols**, normalize data, and trigger alerts for curfews, geofencing, tampering, or speeding.
+- Enabled both individual and enterprise clients to track assets in real time, review historical trips, and receive automated notifications—all integrated with lending and insurance systems.
+- Designed to scale across geographies with **multi-region support** and **high-availability infrastructure** on **Azure**.
+
+### 🤖 AI in Production
+
+- Deployed quantized and optimized models for real-time inference on mobile/web using **TFLite**, **ONNX**, and **Core ML**.
+- Applied **unsupervised learning** to detect document quality (blur, lighting, occlusion), enhancing UX and model reliability.
+- Trained custom **object detection models** (YOLO, MMDetection) for intelligent automation of ID parsing and fraud signal detection.
+
+---
+
+## 🧱 Scalable Architecture & Systems Design
+
+- **Versatile Backend Engineering:**
+  Designed and delivered end-to-end backend solutions across diverse fintech verticals—from real-time loan processing platforms and mobile money APIs to high-volume digital wallets—leveraging **.NET Core**, **C#**, and **Python**.
+
+- **Cloud-Native Infrastructure:**
+  Architected systems on **Azure**, using **Docker**, **Kubernetes**, and **microservices** to ensure elastic scalability, high availability, and global performance. Migrated legacy on-prem systems to the cloud, optimizing cost, resilience, and maintainability.
+
+- **Event-Driven & API-First Design:**
+  Built asynchronous, event-driven architectures using **Azure Service Bus**, enabling loosely coupled services, scalable task processing, and real-time decisioning. Defined and documented RESTful APIs that powered web, mobile, and third-party integrations.
+
+- **Secure & Compliant Systems:**
+  Integrated industry-standard practices for authentication, authorization, and compliance (e.g., PCI DSS, KYC, AML). Employed **OAuth2**, **JWT**, **Role-Based Access Control (RBAC)**, and encryption-in-transit/at-rest to meet strict fintech security requirements.
+
+---
+
+## 🧠 Tech Stack Highlights
+
+- **Languages & Frameworks:** C#, .NET Core, Python
+- **AI/ML:** TensorFlow, PyTorch, TFLite, ONNX, OpenCV, Scikit-learn
+- **Cloud & DevOps:** Azure, Docker, Kubernetes, GitHub Actions
+- **Messaging & APIs:** Azure Service Bus, REST, gRPC
+- **Databases:** SQL Server, MongoDB, Redis
+- **IoT/Edge:** Device telemetry ingestion, GPS data pipelines, mobile ML inference
+
+---
+
+## 📈 Business Impact
+
+- 🏦 Scaled loan issuance platforms handling KES 1B+ in yearly disbursements
+- 🧠 Delivered AI-powered features reducing identity fraud by over 60%
+- 🌍 Enabled real-time asset tracking via IoT integrations for high-value equipment
+- 🔐 Built fraud prevention pipelines now standard across regional KYC workflows
+
+---
+
+## 📫 Let's Connect
+
+I’m passionate about creating tech that delivers measurable impact. If you’re looking for an engineer who combines deep technical chops with product strategy and system-level thinking—let’s talk.
+
+> **💼 Available for Senior Engineer, AI Specialist, or Tech Lead roles (Full-time or Consulting)**
