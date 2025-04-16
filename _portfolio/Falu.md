@@ -33,7 +33,7 @@ An AI-driven identity verification and fraud detection system designed to proces
 ## Falu Money
 
 **Overview:**
-A high-throughput payments gateway that processes over KES 4B+ in daily transactions, ensuring real-time financial operations and secure monetary transfers.
+A high-throughput payments gateway that processed over KES 4B+ in transactions, ensuring real-time financial operations and secure monetary transfers.
 
 **Key Contributions:**
 
