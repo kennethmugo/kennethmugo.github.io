@@ -1,6 +1,6 @@
 ---
 title: "TH2G Logistics & Fresh Foods – IoT Data Pipeline & Digital Twin Project"
-excerpt: "Developed logistics & IoT apps for real-time container tracking, sensor monitoring, and diagnostics for Makupa Transit, contributing to innovative technical solutions.<br/><img src='/images/th2g.png'>"
+excerpt: "Developed logistics & IoT apps for real-time container tracking, sensor monitoring, and diagnostics for Makupa Transit, contributing to innovative technical solutions.<br/><img src='/images/th2g.png'><img src='/images/th2g_ff.png'>"
 collection: portfolio
 ---
 
