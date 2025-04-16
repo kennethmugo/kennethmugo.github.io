@@ -20,11 +20,11 @@ An AI-driven identity verification and fraud detection system designed to proces
 - **Identity Validation Pipeline:**
   Built a FastAPI-powered pipeline leveraging transfer learning with EfficientNetB0 for classification and OCR-based MRZ checks, achieving 98% accuracy while minimizing data requirements.
 - **Tax ID Verification:**
-  Engineered an automated tax ID verification solution for Kenyan clients by simulating browser interactions on the KRA portal with Puppeteer and OCR to solve algorithmic puzzles—cross-validating taxpayer details against identity documents.
+  Engineered an automated tax ID verification solution for Kenyan clients by using Puppeteer to simulate browser interactions on the [KRA portal](https://itax.kra.go.ke/KRA-Portal/pinChecker.htm). The system inputs tax IDs, employs OCR to extract and solve an algorithmic puzzle that unlocks taxpayer details, which are then cross-validated against identity documents to ensure compliance and prevent fraud.
 - **Active Learning:**
   Led the development of a model-driven active learning pipeline that flagged uncertain predictions for automated labeling and retraining, reducing manual annotation by 90%.
 - **Data Enrichment:**
-  Developed a Random Forest model using n-gram TF-IDF features to infer missing gender details in a 15M+ dataset, transforming incomplete data into a high-quality, structured resource for tighter cross-validation of identity documents.
+  Developed a Random Forest model with n-gram TF-IDF features to infer missing gender details in a 15M+ dataset (with over 90% unlabeled), transforming incomplete data into a structured, high-quality dataset for stricter cross-validation of identity documents—significantly enhancing fraud detection.
 - **Face Verification Pipeline:**
   Built a multi-stage face verification pipeline using MediaPipe’s FaceLandmarker models for landmark extraction and a custom SVR model for head pose estimation, supplemented by MediaPipe Blendshape for expression validation—enhancing matching accuracy and compliance with global identity standards.
 - **Fraud Detection:**
