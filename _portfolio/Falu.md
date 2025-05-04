@@ -61,7 +61,7 @@ A high-scale messaging system that supports critical communications for financia
 
 ## Business Impact
 
-- Delivered a comprehensive, scalable solution that handles 50,000+ identity verifications and processes KES 4B+ in daily transactions.
+- Delivered a comprehensive, scalable solution that handles 50,000+ identity verifications and processes KES 4B+ in transactions.
 - Streamlined loan origination and credit risk assessment to scale user bases, drive revenue growth, and secure investments.
 - Enhanced fraud prevention and regulatory compliance through multi-layered AI-driven validation and automated tax ID verification.
 - Enabled efficient business communications and operational visibility that directly contributed to new revenue streams and improved asset utilization.
