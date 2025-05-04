@@ -16,7 +16,7 @@ An AI-driven identity verification and fraud detection system designed to proces
 **Key Contributions:**
 
 - **Document Detection & Optimization:**
-  Developed a real-time identity document detection model using SSDLite, optimized for mobile via INT8 quantization (across TFLite, TF.js, CoreML with palettization, and ONNX) to compress the model to under 3MB. Deployed via Azure CDN for fast, scalable access.
+  Developed a real-time identity document detection model using SSDLite (Single Shot MultiBox Detector), optimized for mobile via INT8 quantization (across TFLite, TF.js, CoreML with palettization, and ONNX) to compress the model to under 3MB. Deployed via Azure CDN for fast, scalable access.
 - **Identity Validation Pipeline:**
   Built a FastAPI-powered pipeline leveraging transfer learning with EfficientNetB0 for classification and OCR-based MRZ checks, achieving 98% accuracy while minimizing data requirements.
 - **Tax ID Verification:**
