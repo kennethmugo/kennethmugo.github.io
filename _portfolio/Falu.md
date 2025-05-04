@@ -52,7 +52,7 @@ A high-scale messaging system that supports critical communications for financia
 - **Dynamic Templating:**
   Implemented dynamic message templating with Mustachio to reduce server-side payload processing by storing static content on the server and sending only variable data—boosting throughput.
 - **Background Ingestion Pipeline:**
-  Optimized a high-throughput messaging gateway by implementing a background ingestion pipeline that temporarily stored messages on a mounted file share in Azure Storage. This approach immediately returned HTTP 202 status responses to clients and deferred batch processing offline, eliminating database timeouts and ensuring seamless delivery of 1M+ daily messages.
+  Optimized a high-throughput messaging gateway by implementing a background ingestion pipeline that temporarily stored messages on Azure Files. This approach immediately returned HTTP 202 status responses to clients and deferred batch processing offline, eliminating database timeouts and ensuring seamless delivery of 1M+ daily messages.
 
 ## 🧰 SDK Development & Maintenance
 
