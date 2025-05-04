@@ -26,7 +26,7 @@ An AI-driven identity verification and fraud detection system designed to proces
 - **Data Enrichment:**
   Developed a Random Forest model with n-gram TF-IDF features to infer missing gender details in a 15M+ dataset (with over 90% unlabeled), transforming incomplete data into a structured, high-quality dataset for stricter cross-validation of identity documents—significantly enhancing fraud detection.
 - **Face Verification Pipeline:**
-  Built a multi-stage face verification pipeline using MediaPipe’s FaceLandmarker models for landmark extraction and a custom SVR model for head pose estimation, supplemented by MediaPipe Blendshape for expression validation—enhancing matching accuracy and compliance with global identity standards.
+  Built a multi-stage face verification pipeline using MediaPipe’s FaceLandmarker models for landmark extraction and a custom SVR (Support Vector Regressor) model for head pose estimation, supplemented by MediaPipe Blendshape for expression validation—enhancing matching accuracy and compliance with global identity standards.
 - **Fraud Detection:**
   Developed an AI-powered fraud detection system using FaceNet embeddings and MongoDB Atlas Vector Search to detect duplicate accounts by matching submitted selfies via ANN search, thereby preventing identity fraud.
 
