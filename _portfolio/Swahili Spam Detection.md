@@ -21,6 +21,7 @@ SMS scams in East Africa often target victims via Mobile Money fraud. These mess
   - Model explainability
   - Topic modeling to uncover common scam themes
 - Implemented **MLOps with DVC** to version control datasets, models, and experiments.
+- Tracked experiments with **MLFlow**.
 
 ## 🛠️ Tech Stack
 
