@@ -1,6 +1,6 @@
 ---
 title: "Swahili SMS Spam Detection."
-excerpt: "Spam detector for messages mainly in swahili."
+excerpt: "NLP-powered system to detect Mobile Money scams targeting East African users by analyzing SMS messages written in a mix of Swahili and informal or misspelled English — a common linguistic pattern in the region"
 collection: portfolio
 ---
 
