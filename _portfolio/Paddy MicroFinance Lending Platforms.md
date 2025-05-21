@@ -31,7 +31,7 @@ This project modernized and unified the lending operations for Paddy Micro Finan
 - **Credit Scoring Engine:**
   Developed a real-time credit scoring model using XGBoost combined with K-Means clustering, leveraging alternative credit data to perform borrower segmentation and dynamic risk assessment. This model enabled personalized loan offers and dynamic credit limits, achieving repayment rates between 88% and 93%.
 - **Low-Latency Data Pipeline:**
-  Designed a data ingestion pipeline optimized with Azure Front Door PoP nodes, reducing upload failures by 80% and enabling real-time analytics via Power BI. This allowed Okoa Mia to refine risk models and raise loan limits 19x, driving several-fold revenue increases.
+  Designed a data ingestion pipeline optimized with Azure Front Door POP nodes, reducing upload failures by 80% and enabling real-time analytics via Power BI. This allowed Okoa Mia to refine risk models and raise loan limits 19x, driving several-fold revenue increases.
 - **Model Monitoring & Notification:**
   Established a real-time monitoring system using Azure Machine Learning to track model drift and trigger automated retraining, along with an A/B-tested notification system for repayment reminders and delinquency alerts.
 
